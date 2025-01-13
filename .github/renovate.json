@@ -1,15 +1,30 @@
 {
-  "extends": ["config:base"],
-  "labels": ["dependencies"],
-  "assignees": ["@ericcrosson"],
+  "extends": [
+    "config:base"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "assignees": [
+    "@ericcrosson"
+  ],
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
       "automerge": true
     },
     {
-      "matchPackageNames": ["EricCrosson/install-github-release-binary"],
-      "minimumReleaseAge": ["4 weeks"],
+      "matchPackageNames": [
+        "BitGo/install-github-release-binary"
+      ],
+      "minimumReleaseAge": [
+        "4 weeks"
+      ],
       "enabled": true
     }
   ],
