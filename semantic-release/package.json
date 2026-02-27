@@ -2,9 +2,9 @@
   "name": "@semantic-release-action/github-actions",
   "private": true,
   "dependencies": {
+    "@bitgo-private/semantic-release-major-tag": "1.0.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
-    "semantic-release": "25.0.2",
-    "semantic-release-major-tag": "0.3.2"
+    "semantic-release": "25.0.2"
   }
 }
