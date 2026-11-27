@@ -5,7 +5,7 @@
     "@semantic-release/changelog",
     "@semantic-release/git",
     [
-      "semantic-release-major-tag",
+      "@bitgo-private/semantic-release-major-tag",
       {
         "customTags": ["v${major}", "v${major}.${minor}"],
         "includePrerelease": true
